@@ -25,10 +25,18 @@
     <Compile Include="src\commands.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="src\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\" />
     <Folder Include="src\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="keys.json">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
