@@ -25,6 +25,12 @@
     <Compile Include="src\commands.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="src\guilds.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\utils.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="src\__init__.py">
       <SubType>Code</SubType>
     </Compile>
